@@ -44,14 +44,14 @@ class ItemCerimonia {
 		return novoChamamento;
 	}
 	definirElementoOk(argElemento) {
-		argElemento.addEventListener("mousedown",(e)=>{
+		argElemento.addEventListener("pointerdown",(e)=>{
 			exibirComandoOk(e.clientX,e.clientY);
 			this.timerOk = setTimeout(() => {
 				this.alternarOk(argElemento);
 				omitirComandoOk();
 			}, 1000);
 		});
-		argElemento.addEventListener("mouseup",(e)=>{
+		argElemento.addEventListener("pointerup",(e)=>{
 			omitirComandoOk();
 			clearTimeout(this.timerOk);
 		});

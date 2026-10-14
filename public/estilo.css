@@ -158,6 +158,9 @@ button:active {
 #cerimonial {
 	background-color: inherit;
 	position: absolute;
+	-webkit-user-select: none;
+	user-select: none;
+	-webkit-touch-callout: none;
 }
 #cerimonial .ok {
 	background-color: #40FF4020;
