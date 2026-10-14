@@ -1,0 +1,441 @@
+{
+	"nome": "Cerimonial de Colação de Grau da Universidade Virtual de Teste, campus Turing",
+	"data": "2026-10-13",
+	"conteudo": [
+		{
+			"tipo": "secao",
+			"nome": "Recepção e abertura",
+			"status": 0,
+			"conteudo": [
+				{
+					"tipo": "bloco",
+					"status": 0,
+					"conteudo": "Senhoras e senhores, autoridades presentes e aqui representadas, amigos, pais e familiares, boa noite."
+				},
+				{
+					"tipo": "bloco",
+					"status": 0,
+					"conteudo": "É com satisfação que a Universidade Virtual de Teste, campus Turing, tem a honra de realizar a solenidade de outorga de grau dos cursos de Bacharelado em Cartografia de Nuvens, Licenciatura em Memória das Águas e Tecnologia em Invenções Sustentáveis! Sejam todos bem-vindos!"
+				},
+				{
+					"tipo": "bloco",
+						"status": 0,
+						"conteudo": "A Universidade Virtual de Teste tem como missão promover teste profissional, científico e tecnológico de excelência, por meio da integração entre ensino, pesquisa e extensão, com foco na formação de personas virtuais comprometidas com o desenvolvimento humano, econômico, cultural, social e ambiental sustentável."
+				}
+			]
+		},
+		{
+			"tipo": "secao",
+			"nome": "Composição da mesa",
+			"status": 0,
+			"conteudo": [
+				{
+					"tipo": "bloco",
+					"status": 0,
+					"conteudo": "Convidamos para compor a mesa de honra as autoridades e representantes a seguir."
+				},
+				{
+					"tipo": "chamamento-listagem",
+					"status": 0,
+					"nomes": [
+						{ "nome": "Aurora Valença", "cargo": "Magnífica Reitora da Universidade Virtual de Teste", "titulo": "Excª. Profª. Drª.", "gen": "f"},
+						{ "nome": "Bento das Veredas", "cargo": "Diretor-geral do Campus Turing da Universidade Virtual de Teste" , "titulo": "Prof. Dr.", "gen": "m"},
+						{ "nome": "Estela Nogueira", "cargo": "Representante da Câmara dos Deputados Virtuais", "titulo": "Deptª. Fed.", "gen": "f"},
+						{ "nome": "Caio Monteverde", "cargo": "Representante da Assembleia Legislativa Virtual", "titulo": "Dept. Est.", "gen": "m"},
+						{ "nome": "Íris do Carmo", "cargo": "Pró-reitora de Ensino da Universidade Virtual de Teste", "titulo": "Profª. Drª.", "gen": "f"},
+						{ "nome": "Rawy Luar", "cargo": "Coordenador do curso de Bacharelado em Cartografia de Nuvens", "titulo": "Prof. Me.", "fonetica": "Ra-ví Lú-ar", "gen": "m"},
+						{ "nome": "Lívia Fontes", "cargo": "Coordenadora do curso de Licenciatura em Memória das Águas", "titulo": "Profª. Drª.", "gen": "f"},
+						{ "nome": "Nilo Candeia", "cargo": "Coordenador do curso de Tecnologia em Invenções Sustentáveis", "titulo": "Prof. Me.", "gen": "m"},
+						{ "nome": "Aluísio Barbosa Candeias", "cargo": "Paraninfo do curso de Bacharelado em Cartografia de Nuvens", "titulo": "Prof. Dr.", "gen": "m"},
+						{ "nome": "Mariana Costa", "cargo": "Paraninfa do curso de Licenciatura em Memória das Águas", "titulo":"Profª. Drª.", "gen": "f"},
+						{ "nome": "Sérgio Almeida", "cargo": "Paraninfo do curso de Tecnologia em Invenções Sustentáveis", "titulo":"Prof. Dr.", "gen": "m"}
+					]
+				}
+			]
+		},
+		{
+			"tipo": "secao",
+			"nome": "Entrada dos formandos",
+			"status": 0,
+			"conteudo": [
+				{
+					"tipo": "bloco",
+					"status": 0,
+					"conteudo": "Convidamos agora, para fazer parte desta sessão solene, aqueles que com muita dedicação chegaram a este momento. Vamos receber com aplausos os concluintes do curso de Bacharelado em Cartografia de Nuvens"
+				},
+				{
+					"tipo": "bloco",
+					"status": 0,
+					"conteudo": "Recebamos agora, os concluintes do curso de Licenciatura em Memória das Águas"
+				},
+				{
+					"tipo": "bloco",
+					"status": 0,
+					"conteudo": "Recebamos agora, os concluintes do curso de Tecnologia em Invenções Sustentáveis"
+				}
+			]
+		},
+		{
+			"tipo": "secao",
+			"nome": "Execução Hinos",
+			"status": 0,
+			"conteudo": [
+				{
+					"tipo": "bloco",
+					"status": 0,
+					"conteudo": "Convidamos a todos para, em posição de respeito, acompanhar a execução do Hino Nacional Brasileiro."
+				},
+				{
+					"tipo": "bloco",
+					"status": 0,
+					"conteudo": "Convidamos a todos para, em posição de respeito, acompanhar a execução do Hino Virtual do Teste."
+				}
+			]
+		},
+		{
+			"tipo":"secao",
+			"nome": "Agradecimentos",
+			"status": 0,
+			"conteudo": [
+				{
+					"tipo": "bloco",
+					"status": 0,
+					"conteudo": "Destacamos e agradecemos a presença das seguintes autoridades..."
+				},
+				{
+					"tipo": "chamamento-listagem",
+					"status": 0,
+					"nomes": [
+						{ "nome": "Célio Bragança do Vale", "gen": "m", "cargo": "Vereador" },
+						{ "nome": "Lúcia Estrela das Águas", "gen": "f", "cargo": "Vereadora" },
+						{ "nome": "Osvaldo Mar de Luz", "gen": "m", "cargo": "Secretário de Educação" }
+					]
+				},
+				{
+					"tipo": "bloco",
+					"status": 0,
+					"conteudo": "Registramos e agradecemos a presença dos servidores da Universidade Virtual de Teste, amigos e familiares dos formandos."
+				},
+				{
+					"tipo": "bloco",
+					"status": 0,
+					"conteudo": "Queremos destacar e agradecer a presença dos professores homenageados"
+				},
+				{
+					"tipo": "chamamento-listagem",
+					"status": 0,
+					"nomes": [
+						{ "nome": "André Lopes", "gen": "m", "cargo": "Curso de Bacharelado em Cartografia de Nuvens", "titulo":"Prof. Dr." },
+						{ "nome": "Mariana Costa", "gen": "f", "cargo": "Curso de Licenciatura em Memória das Águas", "titulo":"Profª. Drª." },
+						{ "nome": "Sérgio Almeida", "gen": "m", "cargo": "Curso de Tecnologia em Invenções Sustentáveis", "titulo":"Prof." }
+					]
+				}
+			]
+		},
+		{
+			"tipo": "secao",
+			"nome": "Abertura da Solenidade",
+			"status": 0,
+			"conteudo": [
+				{
+					"tipo": "bloco",
+					"status": 0,
+					"conteudo": "Convidamos a reitora da Universidade Virtual de Teste, a Excª. Profª. Drª. Aurora Valença, para a instalação da sessão de outorga de grau."
+				},
+				{
+					"tipo": "fala",
+					"nome": "Reitora",
+					"status": 0,
+					"conteudo": "Declaro aberta a sessão solene de outorga de grau dos cursos de Bacharelado em Cartografia de Nuvens, Licenciatura em Memória das Águas e Tecnologia em Invenções Sustentáveis, do campus Turing, da Universidade Virtual de Teste."
+				}
+			]
+		},
+		{
+			"tipo": "secao",
+			"nome": "Juramento",
+			"status": 0,
+			"conteudo": [
+				{
+					"tipo": "secao",
+					"nome": "Bacharelado em Cartografia de Nuvens",
+					"status": 0,
+					"conteudo": [
+						{
+							"tipo": "bloco",
+							"status": 0,
+							"conteudo": "Convidamos agora a concluinte Alana Brisa de Carvalho, representante dos concluintes do curso de Bacharelado em Cartografia de Nuvens, para prestar o juramento, sendo seguida por seus colegas de curso."
+						},
+						{
+							"tipo": "fala",
+							"nome": "Juramentista",
+							"status": 0,
+							"conteudo": "Solicito que os formandos fiquem em pé, se possível, levantem a mão direita e repitam comigo."
+						},
+						{
+							"tipo": "fala",
+							"nome": "Juramentista",
+							"status": 0,
+							"conteudo": "Prometo exercer a Cartografia de Nuvens com rigor, sensibilidade e compromisso com o conhecimento. Comprometo-me a observar e mapear os céus com responsabilidade, compartilhar minhas descobertas com clareza e respeitar a natureza, as comunidades e a diversidade dos saberes. Que meus mapas inspirem novas perguntas e contribuam para um futuro mais consciente. Assim eu prometo."
+						}
+					]
+				},
+				{
+					"tipo": "secao",
+					"nome": "Licenciatura em Memória das Águas",
+					"status": 0,
+					"conteudo": [
+						{
+							"tipo": "bloco",
+							"status": 0,
+							"conteudo": "Convidamos agora a concluinte Cecília Maré Antunes, representante dos concluintes do curso de Licenciatura em Memória das Águas, para prestar o juramento, sendo seguida por seus colegas de curso."
+						},
+						{
+							"tipo": "fala",
+							"nome": "Juramentista",
+							"status": 0,
+							"conteudo": "Solicito que os formandos fiquem em pé, se possível, levantem a mão direita e repitam comigo."
+						},
+						{
+							"tipo": "fala",
+							"nome": "Juramentista",
+							"status": 0,
+							"conteudo": "Prometo dedicar-me à educação com respeito, sensibilidade e compromisso com a aprendizagem. Comprometo-me a valorizar as memórias e os saberes das comunidades, cuidar das águas e compartilhar conhecimentos com responsabilidade, contribuindo para uma sociedade mais justa e consciente. Assim eu prometo."
+						}
+					]
+				},
+				{
+					"tipo": "secao",
+					"nome": "Tecnologia em Invenções Sustentáveis",
+					"status": 0,
+					"conteudo": [
+						{
+							"tipo": "bloco",
+							"status": 0,
+							"conteudo": "Convidamos agora o concluinte Gael Pinhão das Neves, representante dos concluintes do curso de Tecnologia em Invenções Sustentáveis, para prestar o juramento, sendo seguido por seus colegas de curso."
+						},
+						{
+							"tipo": "fala",
+							"nome": "Juramentista",
+							"status": 0,
+							"conteudo": "Solicito que os formandos fiquem em pé, se possível, levantem a mão direita e repitam comigo."
+						},
+						{
+							"tipo": "fala",
+							"nome": "Juramentista",
+							"status": 0,
+							"conteudo": "Prometo desenvolver e aplicar soluções tecnológicas com criatividade, rigor e responsabilidade. Comprometo-me a respeitar as pessoas e o meio ambiente, reduzir impactos, valorizar o uso consciente dos recursos e colocar meus conhecimentos a serviço de um futuro sustentável. Assim eu prometo."
+						}
+					]
+				}
+			]
+		},
+		{
+			"tipo": "secao",
+			"nome": "Outorga do grau",
+			"status": 0,
+			"conteudo": [
+				{
+					"tipo": "secao",
+					"nome": "Bacharelado em Cartografia de Nuvens",
+					"status": 0,
+					"conteudo": [
+						{
+							"tipo": "bloco",
+							"status": 0,
+							"conteudo": "Neste momento, convidamos a concluinte Alana Brisa de Carvalho, do curso de Bacharelado em Cartografia de Nuvens, para receber a outorga de grau."
+						},
+						{
+							"tipo": "fala",
+							"nome": "Reitora",
+							"status": 0,
+							"conteudo": "Eu, Aurora Valença, reitora da Universidade Virtual dos Testes, confiro aos formandos, o grau de Bacharel em Cartografia de Nuvens, para que possam usufruir de agora em diante, de todos os direitos e prerrogativas que a este grau asseguram as leis da república."
+						},
+						{
+							"tipo": "bloco",
+							"status": 0,
+							"conteudo": "Chamaremos agora, nominalmente, os graduandos do curso de Bacharelado em Cartografia de Nuvens para a entrega do diploma."
+						},
+						{
+							"tipo": "chamamento-listagem",
+							"status": 0,
+							"nomes": [
+								{ "nome": "Davi Solano Ribeiro", "gen": "f"},
+								{ "nome": "Melina Arco-Íris Furtado", "gen": "f"},
+								{ "nome": "Noah Cedro Valim", "gen": "m", "fonetica": "Nôu-a Cé-dro Valím"}
+							]
+						}
+					]
+				},
+				{
+					"tipo": "secao",
+					"nome": "Licenciatura em Memória das Águas",
+					"status": 0,
+					"conteudo": [
+						{
+							"tipo": "bloco",
+							"status": 0,
+							"conteudo": "Neste momento, convidamos a concluinte Cecília Maré Antunes, do curso de Licenciatura em Memória das Águas, para receber a outorga de grau."
+						},
+						{
+							"tipo": "fala",
+							"nome": "Reitora",
+							"status": 0,
+							"conteudo": "Eu, Aurora Valença, reitora da Universidade Virtual dos Testes, confiro aos formandos, o grau de Licenciado em Memória das Águas, para que possam usufruir de agora em diante, de todos os direitos e prerrogativas que a este grau asseguram as leis da república."
+						},
+						{
+							"tipo": "bloco",
+							"status": 0,
+							"conteudo": "Chamaremos agora, nominalmente, os graduandos do curso de Licenciatura em Memória das Águas para a entrega do diploma."
+						},
+						{
+							"tipo": "chamamento-listagem",
+							"status": 0,
+							"nomes": [
+								{ "nome": "Tomás do Vale Siqueira", "gen": "m"},
+								{ "nome": "Yara Flor de Lis", "gen": "f", "fonetica": "Iá-ra"}
+							]
+						}
+					]
+				},
+				{
+					"tipo": "secao",
+					"nome": "Tecnologia em Invenções Sustentáveis",
+					"status": 0,
+					"conteudo": [
+						{
+							"tipo": "bloco",
+							"status": 0,
+							"conteudo": "Neste momento, convidamos o concluinte Gael Pinhão das Neves, do curso de Tecnologia em Invenções Sustentáveis, para receber a outorga de grau."
+						},
+						{
+							"tipo": "fala",
+							"nome": "Reitora",
+							"status": 0,
+							"conteudo": "Eu, Aurora Valença, reitora da Universidade Virtual dos Testes, confiro aos formandos, o grau de Tecnólogo em Invenções Sustentáveis, para que possam usufruir de agora em diante, de todos os direitos e prerrogativas que a este grau asseguram as leis da república."
+						},
+						{
+							"tipo": "bloco",
+							"status": 0,
+							"conteudo": "Chamaremos agora, nominalmente, os graduandos do curso de Tecnologia em Invenções Sustentáveis para a entrega do diploma."
+						},
+						{
+							"tipo": "chamamento-listagem",
+							"status": 0,
+							"nomes": [
+								{ "nome": "Nina Sol de Azevedo", "gen": "f"},
+								{ "nome": "Otávio Horizonte Luz", "gen": "m"}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"tipo": "secao",
+			"nome": "Discursos",
+			"status": 0,
+			"conteudo": [
+				{
+					"tipo": "secao",
+					"nome": "Turmas",
+					"status": 0,
+					"conteudo": [
+						{
+							"tipo": "bloco",
+							"status": 0,
+							"conteudo": "Convidamos, para o seu discurso, o orador da turma do curso de Bacharelado em Cartografia de Nuvens, Davi Solano Ribeiro."
+						},
+						{
+							"tipo": "timer",
+							"status": 0,
+							"tempo": 240
+						},
+						{
+							"tipo": "bloco",
+							"status": 0,
+							"conteudo": "Convidamos, para o seu discurso, o paraninfo da turma do curso de Bacharelado em Cartografia de Nuvens, Prof. Dr. Aluísio Barbosa Candeias."
+						},
+						{
+							"tipo": "timer",
+							"status": 0,
+							"tempo": 180
+						},
+						{
+							"tipo": "bloco",
+							"status": 0,
+							"conteudo": "Convidamos, para o seu discurso, o orador da turma do curso de Licenciatura em Memória das Águas, Tomás do Vale Siqueira."
+						},
+						{
+							"tipo": "timer",
+							"status": 0,
+							"tempo": 240
+						},
+						{
+							"tipo": "bloco",
+							"status": 0,
+							"conteudo": "Convidamos, para o seu discurso, a paraninfa da turma do curso de Licenciatura em Memória das Águas, Profª. Drª. Mariana Costa."
+						},
+						{
+							"tipo": "timer",
+							"status": 0,
+							"tempo": 180
+						},
+						{
+							"tipo": "bloco",
+							"status": 0,
+							"conteudo": "Convidamos, para o seu discurso, a oradora da turma do curso de Tecnologia em Invenções Sustentáveis, Nina Sol de Azevedo."
+						},
+						{
+							"tipo": "timer",
+							"status": 0,
+							"tempo": 240
+						},
+						{
+							"tipo": "bloco",
+							"status": 0,
+							"conteudo": "Convidamos, para o seu discurso, o paraninfo da turma do curso de Tecnologia em Invenções Sustentáveis, Prof. Dr. Sérgio Almeida."
+						},
+						{
+							"tipo": "timer",
+							"status": 0,
+							"tempo": 180
+						}
+					]
+				},
+				{
+					"tipo": "secao",
+					"nome": "Discursos finais",
+					"status": 0,
+					"conteudo": [
+						{
+							"tipo": "bloco",
+							"status": 0,
+							"conteudo": "Neste momento, ouviremos a palavra do Diretor-geral do Campus Turing da Universidade Virtual de Teste, Prof. Dr. Bento das Veredas."
+						},
+						{
+							"tipo": "timer",
+							"status": 0,
+							"tempo": 180
+						},
+						{
+							"tipo": "bloco",
+							"status": 0,
+							"conteudo": "Convidamos, para o seu discurso e encerramento da sessão solene, a reitora da Universidade Virtual de Teste, a Excª. Profª. Drª. Aurora Valença."
+						},
+						{
+							"tipo": "fala",
+							"nome": "Reitora",
+							"status": 0,
+							"conteudo": "(Discurso)\n\nDeclaro encerrada a solenidade de outorga de grau dos cursos de Bacharelado em Cartografia de Nuvens, Licenciatura em Memória das Águas e Tecnologia em Invenções Sustentáveis, do campus Turing!"
+						}
+					]
+				}
+			]
+		},
+		{
+			"tipo": "bloco",
+			"status": 0,
+			"conteudo": "Agradecemos a presença de todos e desejamos uma excelente noite! Convidamos a todos os formandos para a Foto Oficial da turma e pedimos que os pais, amigos e familiares, aguardem."
+		}
+	]
+}
