@@ -440,14 +440,14 @@ class Nome {
 			this.elFonetica.innerText = "( "+this.fonetica+" )";
 			this.el.appendChild(this.elFonetica);
 		}
-		this.el.addEventListener("mousedown",(e)=>{
+		this.el.addEventListener("pointerdown",(e)=>{
 			exibirComandoOk(e.clientX,e.clientY);
 			this.timerOk = setTimeout(() => {
 				this.alternarOk(this.el);
 				omitirComandoOk();
 			}, 1000);
 		});
-		this.el.addEventListener("mouseup",(e)=>{
+		this.el.addEventListener("pointerup",(e)=>{
 			clearTimeout(this.timerOk);
 			omitirComandoOk();
 		});
