@@ -10,12 +10,53 @@ document.body.appendChild(divComandoOk);
 var cerimonial = null;
 var autoRecolher = false;
 
+function definirAcaoOkPorPressao(argElemento, argAcao) {
+	let timerOk = null;
+	let pointerIdAtivo = null;
+	let inicioX = 0;
+	let inicioY = 0;
+
+	const cancelarGesto = () => {
+		clearTimeout(timerOk);
+		timerOk = null;
+		pointerIdAtivo = null;
+		omitirComandoOk();
+		window.removeEventListener("pointermove", moverPonteiro);
+		window.removeEventListener("pointerup", finalizarGesto);
+		window.removeEventListener("pointercancel", finalizarGesto);
+	};
+	const moverPonteiro = (e) => {
+		if (e.pointerId !== pointerIdAtivo) return;
+		if (Math.hypot(e.clientX - inicioX, e.clientY - inicioY) > 12) {
+			cancelarGesto();
+		}
+	};
+	const finalizarGesto = (e) => {
+		if (e.pointerId === pointerIdAtivo) cancelarGesto();
+	};
+
+	argElemento.addEventListener("pointerdown",(e)=>{
+		if (!e.isPrimary || (e.pointerType === "mouse" && e.button !== 0)) return;
+		pointerIdAtivo = e.pointerId;
+		inicioX = e.clientX;
+		inicioY = e.clientY;
+		exibirComandoOk(e.clientX,e.clientY);
+		timerOk = setTimeout(() => {
+			argAcao();
+			timerOk = null;
+			omitirComandoOk();
+		}, 1000);
+		window.addEventListener("pointermove", moverPonteiro);
+		window.addEventListener("pointerup", finalizarGesto);
+		window.addEventListener("pointercancel", finalizarGesto);
+	});
+}
+
 class ItemCerimonia {
 	constructor() {
 		this.status = 0;
 		this.pai = null;
 		this.conteudo = [];
-		this.timerOk = null;
 		this.el = null;
 	}
 	adicionarSecao(argNome) {
@@ -44,17 +85,7 @@ class ItemCerimonia {
 		return novoChamamento;
 	}
 	definirElementoOk(argElemento) {
-		argElemento.addEventListener("pointerdown",(e)=>{
-			exibirComandoOk(e.clientX,e.clientY);
-			this.timerOk = setTimeout(() => {
-				this.alternarOk(argElemento);
-				omitirComandoOk();
-			}, 1000);
-		});
-		argElemento.addEventListener("pointerup",(e)=>{
-			omitirComandoOk();
-			clearTimeout(this.timerOk);
-		});
+		definirAcaoOkPorPressao(argElemento,()=>this.alternarOk(argElemento));
 	}
 	alternarOk(argElemento) {
 		if (this.status == 0) {
@@ -440,17 +471,7 @@ class Nome {
 			this.elFonetica.innerText = "( "+this.fonetica+" )";
 			this.el.appendChild(this.elFonetica);
 		}
-		this.el.addEventListener("pointerdown",(e)=>{
-			exibirComandoOk(e.clientX,e.clientY);
-			this.timerOk = setTimeout(() => {
-				this.alternarOk(this.el);
-				omitirComandoOk();
-			}, 1000);
-		});
-		this.el.addEventListener("pointerup",(e)=>{
-			clearTimeout(this.timerOk);
-			omitirComandoOk();
-		});
+		definirAcaoOkPorPressao(this.el,()=>this.alternarOk(this.el));
 	}
 	alternarOk(argElemento) {
 		if (this.status == 0) {
